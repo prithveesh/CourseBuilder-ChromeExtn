@@ -1,0 +1,1 @@
+document.getElementById("btnSource").onclick = () => chrome.tabs.executeScript(null, { file: "src/module/home/download.js" });
